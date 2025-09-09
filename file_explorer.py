@@ -1,3 +1,9 @@
+# Jax Jacobson
+# 9/8/25
+# CS 310 - W2 Filesystem Explorer.\<ext\>
+# List out all of the files and directories including their path, size, type, and MIME type using pathlib.
+
+
 import os
 import mimetypes
 from pathlib import Path

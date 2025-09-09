@@ -38,9 +38,9 @@ def main(path = "."):                                                           
 
 
         if file_type == "directory":
-            print(f"{str(file_path):<65}[{file_type}]{size_out:>25}{mime_type:>40}")
+            print(f"{str(file_path):<80}[{file_type}]{size_out:>25}{mime_type:>35}")
         else:
-            print(f"{str(file_path):<65}[{file_type}]{size_out:>30}{mime_type:>40}")        # Easy to read format to see the list of files in the current 
+            print(f"{str(file_path):<80}[{file_type}]{size_out:>30}{mime_type:>35}")        # Easy to read format to see the list of files in the current 
                                                                                             # directory. file_path has to be converted to a string, or it 
                                                                                             # will not work!
 
